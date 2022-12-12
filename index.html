@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>First table</title>
+	</head>
+	<body>
+		<table
+			border="1"
+			cellpadding="7"
+			width="500px"
+			style="border-style: double; font-family: sans-serif"
+		>
+			<thead style="background-color: rgb(0, 157, 255)">
+				<tr>
+					<th colspan="4">MY FIRST TABLE</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="background-color: rgb(0, 157, 255)">
+						<center>First cell</center>
+					</td>
+					<td style="background-color: rgb(0, 157, 255)">
+						<center>Second cell</center>
+					</td>
+					<td rowspan="3" colspan="3" style="background-color: yellow">
+						<center>6 cells merged together</center>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="background-color: yellow">
+						<center>2 cells merged together</center>
+					</td>
+				</tr>
+				<tr style="background-color: yellow">
+					<td>
+						<center>1st cell <br />3rd row</center>
+					</td>
+					<td>
+						<center>2st cell <br />3rd row</center>
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4" style="background-color: yellow">
+						<center>Do you like tables?</center>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
